@@ -1,0 +1,26 @@
+{
+    "name": "ahmed-zread/response-package",
+    "description": "Response Package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "AhmedZread\\ResponsePackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ahmedZread123"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "src\\ResponseServiceProvider"
+            ],
+            "aliases": {
+                "response": "src\\Response"
+            }
+        }
+    }
+}
