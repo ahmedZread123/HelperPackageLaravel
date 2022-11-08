@@ -15,9 +15,7 @@
     "require": {},
     "extra": {
         "laravel": {
-            "providers": [
-                "src\\ResponseServiceProvider"
-            ],
+           
             "aliases": {
                 "response": "src\\Response"
             }
